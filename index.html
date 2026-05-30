@@ -18,11 +18,12 @@
     }
 
     .hero {
-      height: 600px;
+      height: 500px;
       background-color: rgb(255, 0, 0);
       background-image: url("images/nerflix.jpeg");
       background-size: 100%;
       background-repeat: no-repeat;
+      backgraund-position: center;
     }
 
     .cards {
@@ -55,9 +56,9 @@
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false"><svg viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall"
-                      data-icon-id=":R8pbaml6lalalalb96:" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                      fill="none" role="img">
+                    aria-expanded="false" style="color: white;"><svg viewBox="0 0 16 16" width="16" height="16"
+                      data-icon="LanguagesSmall" data-icon-id=":R8pbaml6lalalalb96:" aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
                       <path fill="currentColor" fill-rule="evenodd"
                         d="M10.77 5.33 10.5 6 9.34 8.94l-.57 1.44L7.33 14h1.78l.73-1.97h3.58l.74 1.97H16l-3.43-8.67zm-.15 4.6-.24.63h2.51l-1.26-3.35zm-1.1-5.09.1-.19h-3.2V2h-1.5v2.65H.55V6h3.77A11 11 0 0 1 0 10.43c.33.28.81.8 1.05 1.16 1.5-.91 2.85-2.36 3.88-4.02v5.1h1.49V7.52q.6.95 1.33 1.8l.57-1.43a12 12 0 0 1-1.34-1.9h2.09z"
                         clip-rule="evenodd"></path>
@@ -80,15 +81,80 @@
           </div>
         </nav>
       </div>
-      <div class="col-12-md-12-sm-12-lg-12-xl-12-xxl-12 hero"></div>
-      <div class="row">
+      <div class="col-12-md-12-sm-12-lg-12-xl-12-xxl-12 hero">
+        <div class="row">
           <div class="col-4"></div>">
-            <div class="col-4"style="margin-top: 400px;">
-              <h1 class="text-centertext-white
-      </div>
-      
-      <div class="col-12-md-12-sm-12-lg-12-xl-12-xxl-12 cards"></div>
-      <div class="col-12-md-12-sm-12-lg-12-xl-12-xxl-12 footer"></div>
+          <div class="col-4" style="margin-top: 400px;">
+            <h1 class="text-center text-white" style="text-shadow: -2px -2px 8px #000000;">disfruta del mejor contenido nerd, aprovecha de nuestras promociones</h1>
+          </div>
+      <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
+
+          <div class=" col-8-md-8-sm-8-lg-8-xl-8-xxl-8 cards">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="images/zzz.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"></div>
+          <div class="col-12-md-12-sm-12-lg-12-xl-12-xxl-12 footer"></div>
     </row>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
